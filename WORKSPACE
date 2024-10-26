@@ -40,6 +40,13 @@ http_archive(
     build_file = "@//third-party/AppCenter:AppCenter.BUILD",
 )
 
+http_archive(
+    name = "mobilevlckit_sdk",
+    urls = ["https://download.videolan.org/pub/cocoapods/prod/MobileVLCKit-3.6.0-c73b779f-dd8bfdba.tar.xz"],
+    sha256 = "1a5077beeb7bf943a3fbbb91523752e50a10d490a3046cb9808d906784ddbc36",
+    build_file = "@//third-party/MobileVLCKit:MobileVLCKit.BUILD",
+)
+
 load(
     "@rules_xcodeproj//xcodeproj:repositories.bzl",
     "xcodeproj_rules_dependencies",

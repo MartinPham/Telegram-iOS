@@ -130,6 +130,7 @@ swift_library(
         "//submodules/CountrySelectionUI:CountrySelectionUI",
         "//submodules/SearchBarNode:SearchBarNode",
         "//submodules/GalleryUI:GalleryUI",
+        "@mobilevlckit_sdk//:MobileVLCKit",
         "//submodules/TelegramUniversalVideoContent:TelegramUniversalVideoContent",
         "//submodules/WebsiteType:WebsiteType",
         "//submodules/ScreenCaptureDetection:ScreenCaptureDetection",
